@@ -28,15 +28,16 @@
     .row
       .col-lg-3.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
+          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in", style="max-width: 240px").mx-auto
       .col-lg-9.order-lg-1(data-aos="fade-left")
         .bg-color-15-1.p-4
           .row.align-items-center.bg-color-2
-            .col-lg-4.px-0.mb-3.mb-lg-0
+            .col-lg-6.px-0.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/2.png", style="width:100%; height:100%; object-fit:cover;")
-            .col-lg-8.p-4
+            .col-lg-6.p-4 
               p.mb-0 En el ámbito profesional, la estructuración adquiere especial relevancia porque facilita la planificación y el control. Un proyecto estructurado permite anticipar situaciones, identificar requerimientos indispensables y establecer mecanismos de seguimiento. Por el contrario, cuando un proyecto carece de estructura, se incrementa la probabilidad de improvisación y desorganización.
-        p.mb-3(data-aos="fade-left") La estructuración no es una etapa aislada del proyecto; constituye una práctica transversal que acompaña todas las fases del ciclo de vida. Desde la identificación de la necesidad hasta el cierre, la organización coherente de los elementos garantiza que cada acción responda a un propósito claro.
+
+    p.mb-3(data-aos="fade-left") La estructuración no es una etapa aislada del proyecto; constituye una práctica transversal que acompaña todas las fases del ciclo de vida. Desde la identificación de la necesidad hasta el cierre, la organización coherente de los elementos garantiza que cada acción responda a un propósito claro.
 
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
