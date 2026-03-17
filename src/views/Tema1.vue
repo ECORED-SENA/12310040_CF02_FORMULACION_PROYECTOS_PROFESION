@@ -52,8 +52,50 @@
       .col-lg-7.col-md-6.p-4.p-lg-5
         p.mb-0 En el ámbito profesional, la estructuración adquiere especial relevancia porque facilita la planificación y el control. Un proyecto estructurado permite anticipar situaciones, identificar requerimientos indispensables y establecer mecanismos de seguimiento. Por el contrario, cuando un proyecto carece de estructura, aumenta la probabilidad de improvisación y desorganización.
 
-    p.mb-0 La estructuración no constituye una etapa aislada, sino una práctica transversal que acompaña todas las fases del ciclo de vida del proyecto. Desde la identificación de la necesidad hasta el cierre, la organización coherente de los elementos garantiza que cada acción responda a un propósito claro y mantenga coherencia interna. Antes de sintetizar los elementos centrales del concepto, se presentan sus componentes esenciales:
+    p.mb- La estructuración no constituye una etapa aislada, sino una práctica transversal que acompaña todas las fases del ciclo de vida del proyecto. Desde la identificación de la necesidad hasta el cierre, la organización coherente de los elementos garantiza que cada acción responda a un propósito claro y mantenga coherencia interna. Antes de sintetizar los elementos centrales del concepto, se presentan sus componentes esenciales:
     
+
+    .bg-carrusel
+      .px-5
+        .row.align-items-center.mb-5
+          .col-xl-4(data-aos="fade-right")
+            figure.d-none.d-xl-block
+              img(src='@/assets/curso/tema1/5.png', alt='' style="max-width: 350px").m-auto
+          .col-xl-8(data-aos="fade-left")
+            SlyderF(columnas="col-lg-6 col-xl-6")
+              .tarjeta.color-white.p-5
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/2.svg' style="max-width: 90px").m-auto
+                h4.mb-3.estilo-text.text-center Organización lógica
+                p.mb-0.text-center Disposición ordenada de los componentes del proyecto.
+              .tarjeta.color-white.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/3.svg' style="max-width: 90px").m-auto
+                h4.mb-3.estilo-text.text-center Secuencialidad
+                p.mb-0.text-center Desarrollo progresivo de acciones conforme a un orden definido.
+              .tarjeta.color-white.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/4.svg' style="max-width: 90px").m-auto
+                h4.mb-3.estilo-text.text-center Delimitación de responsabilidades
+                p.mb-0.text-center Asignación clara de funciones y tareas. primero.
+              .tarjeta.color-white.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/5.svg' style="max-width: 90px").m-auto
+                h4.mb-3.estilo-text.text-center Priorización
+                p.mb-0.text-center Determinación de qué acciones deben ejecutarse primero.
+              .tarjeta.color-white.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema1/6.svg' style="max-width: 90px").m-auto
+                h4.mb-3.estilo-text.text-center Control y seguimiento
+                p.mb-0.text-center Establecimiento de mecanismos para evaluar avances.
+              
+        p.mb-5 Estos componentes interactúan entre sí para garantizar que la información pueda almacenarse, organizarse y recuperarse de forma eficiente dentro de la base de datos. A continuación, se presenta un esquema que integra los principales componentes de una base de datos y su interacción dentro del proceso de almacenamiento y recuperación de información.
+
       .row.justify-content-center.mb-1
     .col-lg-12(data-aos="flip-up")
       .tarjeta.p-4.p-lg-3(style="background-color: #fcf1d5;")
@@ -66,6 +108,35 @@
     p.mp-5 
     p.mb-5 El proyecto debe entenderse como un proceso secuencial en el que cada fase cumple una función específica dentro de un sistema progresivo. La organización secuencial establece un orden lógico en el desarrollo de las actividades y evita la ejecución de acciones sin planificación previa. La secuencia responde a una lógica estructural que garantiza coherencia interna. Su desarrollo puede describirse de la siguiente manera:
 
+    .row.g-0.align-items-center
+    .col-md-6.p-5
+      p.mb-0.text-secondary.fw-semibold.lh-lg
+        b.bg-warning.text-dark.px-2.me-2 a)
+        | Se identifica una necesidad.
+        br
+        b.bg-warning.text-dark.px-2.me-2 b)
+        | Se analiza el contexto.
+        br
+        b.bg-warning.text-dark.px-2.me-2 c)
+        | Se formulan objetivos.
+        br
+        b.bg-warning.text-dark.px-2.me-2 d)
+        | Se planifican actividades.
+        br
+        b.bg-warning.text-dark.px-2.me-2 e)
+        | Se ejecutan acciones.
+        br
+        b.bg-warning.text-dark.px-2.me-2 f)
+        | Se controlan resultados.
+        br
+        b.bg-warning.text-dark.px-2.me-2 g)
+        | Se cierra el proyecto.
+
+    .col-md-6
+      img(src="assets/curso/tema1/7.png")(style=" min-height: 350px;")
+
+    
+    
 
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
