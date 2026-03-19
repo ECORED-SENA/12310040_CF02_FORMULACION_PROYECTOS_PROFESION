@@ -224,11 +224,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -250,24 +245,86 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcance del proyecto',
+      significado:
+        'el alcance de un proyecto define claramente los objetivos, los plazos y los entregables que un proyecto debe lograr en un período determinado. definir el alcance del proyecto con anticipación permite que los miembros del equipo puedan gestionar su tiempo individualmente. además, los participantes clave podrán identificar cuándo surgirá algún cambio a medida que el proyecto avanza.',
+    },
+    {
+      termino: 'Control de proyectos',
+      significado:
+        'es una disciplina fundamental en la gestión de proyectos, centrada en la supervisión y el control de los mismos. incluye la planificación, el control y la gestión sistemática de recursos, costes, plazos y resultados.',
+    },
+    {
+      termino: 'Delimitación del problema:',
+      significado:
+        'significa determinar claramente los límites y alcances de la investigación. para ello, se toman en cuenta diferentes aspectos, como el lugar donde se desarrollará la investigación, el tiempo que abarcará, el universo o la población que será estudiado y las circunstancias que se considerarán relevantes o no.',
+    },
+    {
+      termino: 'Gestión de recursos',
+      significado:
+        'es el proceso de planificación y programación de los recursos que se necesitan utilizar en un proyecto determinado. la diferencia con la asignación de recursos radica en que aquí se planifica activamente dónde y cuándo usar los recursos que se han presupuestado para un proyecto dado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Asana. (2026). 39 términos de gestión de proyectos que debes conocer. ',
+      link: 'https://asana.com/es/resources/project-management-terms',
+    },
+    {
+      referencia:
+        'Bridges, J. (2025). What is the project management life cycle? ProjectManager. ',
+      link:
+        'https://www.projectmanager.com/blog/what-is-the-project-management-life-cycle',
+    },
+    {
+      referencia:
+        'Callejas, L. C. (2020). Gerencia de proyectos – Unidad 1. Universidad Militar Nueva Granada. ',
       link: '',
+    },
+    {
+      referencia:
+        'Estrella, C. (2024). Mejora continua: el secreto para optimizar procesos y reducir costos SoftExpert. ',
+      link: 'https://blog.softexpert.com/es/mejora-continua/',
+    },
+    {
+      referencia: 'Farias, G. (2025). Delimitación del problema. ',
+      link: 'https://concepto.de/delimitacion-del-problema/',
+    },
+    {
+      referencia:
+        'Felipe Administrador. (2021). Cómo Formular un PROYECTO en 20 MINUTOS.  [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=g11b4vdNKaQ',
+    },
+    {
+      referencia:
+        'Gurnov, A. (2025). What are the phases of project management? Wrike. ',
+      link:
+        'https://www.wrike.com/es/project-management-guide/faq/what-are-the-phases-of-project-management/',
+    },
+    {
+      referencia:
+        'Martins, J. (2025). Cómo redactar objetivos de un proyecto que sean eficaces (incluye ejemplos). Asana. ',
+      link: 'https://asana.com/es/resources/how-project-objectives',
+    },
+    {
+      referencia:
+        'Schulte, B. (2024). Project controlling: Definition, methods and key figures. PLANTA. ',
+      link:
+        'https://www.planta.de/en/blog/project-controlling-definition-methods-and-key-figures/',
+    },
+    {
+      referencia:
+        'Tristancho, C. (2025). Gestión de proyectos. ProjectManager. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Westland, J. (2025). Diagrama de flujo de un proyecto. ProjectManager. ',
+      link:
+        'https://www.projectmanager.com/es/diagrama-de-flujo-de-un-proyecto',
     },
   ],
   creditos: [
@@ -275,14 +332,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -290,9 +347,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martinez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -300,19 +364,46 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Fredy Fabian Ortiz Segura',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Cristian Fernando Martinez Sanchez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo Lopez',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -320,14 +411,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ricardo Oliveros Zambrano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
