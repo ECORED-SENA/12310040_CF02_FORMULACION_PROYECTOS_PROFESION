@@ -16,8 +16,8 @@
           .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="nombre"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              texto="Pódcast"
+              :audio="require('@/assets/curso/podcast/podcast2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto.d-none.d-xl-block
