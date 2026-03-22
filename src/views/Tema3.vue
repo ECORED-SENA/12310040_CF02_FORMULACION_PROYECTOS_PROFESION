@@ -308,7 +308,7 @@
       .col-lg-auto.mb-3.mb-lg-0.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/15.png', alt='').m-auto
-    p.mb-5 Ejecutar no significa únicamente realizar actividades, sino desarrollarlas de manera coordinada, organizada y orientada al logro del propósito general del proyecto. Arrollan las actividades planificadas mediante el uso organizado de recursos y la coordinación de acciones, garantizando coherencia entre la formulación y la materialización del proyecto:
+    p.mb-5 Ejecutar no significa únicamente realizar actividades, sino desarrollarlas de manera coordinada, organizada y orientada al logro del propósito general del proyecto. Desarrollan las actividades planificadas mediante el uso organizado de recursos y la coordinación de acciones, garantizando coherencia entre la formulación y la materialización del proyecto:
     TabsC.color-acento-contenido.mb-0(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Implementación de actividades")
         .row.justify-content-center.align-items-center
