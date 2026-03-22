@@ -56,7 +56,7 @@
             p El análisis del contexto permite comprender las condiciones del entorno en el cual se desarrollará el proyecto. Este análisis abarca factores organizacionales, sociales, técnicos y económicos que pueden incidir en la ejecución. El contexto determina tanto las posibilidades como las limitaciones del proyecto. Aspectos como la disponibilidad de recursos, la normativa vigente o las características de la población beneficiaria influyen en la estructuración de las fases posteriores.
             p.mb-3 Un análisis contextual riguroso facilita la anticipación de condiciones que podrían afectar el desarrollo y contribuye a la toma de decisiones fundamentadas.
           .row(titulo="Delimitación del problema").ajuste-cajaAcordion
-            p Delimitar el problema significa establecer con precisión la situación que se pretende intervenir. No es suficiente identificar una necesidad general; es indispensable definir sus características específicas, sus causas y sus efectos.
+            p Delimitar el problema significa establecer con precisión la situación en la que se pretende intervenir. No es suficiente identificar una necesidad general; es indispensable definir sus características específicas, sus causas y sus efectos.
             p Una delimitación clara evita la expansión descontrolada del proyecto y mantiene el enfoque en la situación prioritaria. Además, facilita la formulación de objetivos coherentes con la problemática identificada. Para fortalecer esta delimitación, es pertinente responder preguntas orientadoras como:
             ul.fa-ul.mb-3
               li.mb-0
@@ -308,7 +308,7 @@
       .col-lg-auto.mb-3.mb-lg-0.col-md-9(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/15.png', alt='').m-auto
-    p.mb-5 Ejecutar no significa únicamente realizar actividades, sino desarrollarlas de manera coordinada, organizada y orientada al logro del propósito general del proyecto. arrollan las actividades planificadas mediante el uso organizado de recursos y la coordinación de acciones, garantizando coherencia entre la formulación y la materialización del proyecto:
+    p.mb-5 Ejecutar no significa únicamente realizar actividades, sino desarrollarlas de manera coordinada, organizada y orientada al logro del propósito general del proyecto. Arrollan las actividades planificadas mediante el uso organizado de recursos y la coordinación de acciones, garantizando coherencia entre la formulación y la materialización del proyecto:
     TabsC.color-acento-contenido.mb-0(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Implementación de actividades")
         .row.justify-content-center.align-items-center

@@ -249,22 +249,22 @@ export default {
     {
       termino: 'Alcance del proyecto',
       significado:
-        'el alcance de un proyecto define claramente los objetivos, los plazos y los entregables que un proyecto debe lograr en un período determinado. definir el alcance del proyecto con anticipación permite que los miembros del equipo puedan gestionar su tiempo individualmente. además, los participantes clave podrán identificar cuándo surgirá algún cambio a medida que el proyecto avanza.',
+        'el alcance de un proyecto define claramente los objetivos, los plazos y los entregables que un proyecto debe lograr en un período determinado. Definir el alcance del proyecto con anticipación permite que los miembros del equipo puedan gestionar su tiempo individualmente. Además, los participantes clave podrán identificar cuándo surgirá algún cambio a medida que el proyecto avanza.',
     },
     {
       termino: 'Control de proyectos',
       significado:
-        'es una disciplina fundamental en la gestión de proyectos, centrada en la supervisión y el control de los mismos. incluye la planificación, el control y la gestión sistemática de recursos, costes, plazos y resultados.',
+        'es una disciplina fundamental en la gestión de proyectos, centrada en la supervisión y el control de los mismos. Incluye la planificación, el control y la gestión sistemática de recursos, costes, plazos y resultados.',
     },
     {
-      termino: 'Delimitación del problema:',
+      termino: 'Delimitación del problema',
       significado:
-        'significa determinar claramente los límites y alcances de la investigación. para ello, se toman en cuenta diferentes aspectos, como el lugar donde se desarrollará la investigación, el tiempo que abarcará, el universo o la población que será estudiado y las circunstancias que se considerarán relevantes o no.',
+        'significa determinar claramente los límites y alcances de la investigación. Para ello, se toman en cuenta diferentes aspectos, como el lugar donde se desarrollará la investigación, el tiempo que abarcará, el universo o la población que será estudiado y las circunstancias que se considerarán relevantes o no.',
     },
     {
       termino: 'Gestión de recursos',
       significado:
-        'es el proceso de planificación y programación de los recursos que se necesitan utilizar en un proyecto determinado. la diferencia con la asignación de recursos radica en que aquí se planifica activamente dónde y cuándo usar los recursos que se han presupuestado para un proyecto dado.',
+        'es el proceso de planificación y programación de los recursos que se necesitan utilizar en un proyecto determinado. La diferencia con la asignación de recursos radica en que aquí se planifica activamente dónde y cuándo usar los recursos que se han presupuestado para un proyecto dado.',
     },
   ],
   referencias: [

@@ -16,7 +16,7 @@
           .col.espacio___movil_3
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="Pódcast"
+              texto="Fundamentos metodológicos para la estructuración de proyectos"
               :audio="require('@/assets/curso/podcast/podcast2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
