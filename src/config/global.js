@@ -389,7 +389,13 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
